@@ -30,9 +30,9 @@
     <li><a href="#copy-table">Copy Table</a></li>
     <li><a href="#roadmap">Update</a></li>
     <li><a href="#contributing">Delete</a></li> -->
-    <li><a href="#building-blocks-of-data-warehousing">Building Blocks of Data Warehousing</a></li>
     <li><a href="#features">Features</a></li>
     <li><a href="#data-warehouses-and-data-marts">Data Warehouse and Data Marts</a></li>
+    <li><a href="#components-of-data-warehousing">Components of Data Warehousing</a></li>
   </ol>
 </details>
 
@@ -91,11 +91,105 @@ Data warehouse has low latency to facilitate real time analytics
 
 </ol>
 
-### Building Blocks of Data Warehousing
 
 ### Features
+<ol>
+<li>Subject Oriented
+
+Data warehouses typically provide a concise and straightforward view around a particular subject
+<li>Integrated
+
+Integrates various heterogeneous data sources
+<li>Time Variant
+
+Stores Historcal data
+<li>Non Volatile
+
+Physically separate data storage in which no data manipulation can occur
+
+</ol>
+
 ### Data Warehouses and Data Marts
 
+| **Parameter**  | **Data Warehouse**                  | **Database**                  |
+|----------------|-------------------------------------|-------------------------------|
+| **Workloads**  | Analytical                          | Transactional and Operational |
+| **Datatype**   | Stores Histrical and Current Data   | Stores Updated Data           |
+| **Purpose**    | Analysis                            | Record                        |
+| **Query Type** | Simple transaction queries          | Complex queries               |
+| **Users**      | Data Scientists & Business Analysts | Application Developers        |
+
+
+### Components of Data Warehousing
+<ol>
+<li> Source Data Component
+    <ul>
+        <li>Production Data
+
+Comes from the different operating systems of the enterprise. 
+<li>Internal Data
+
+Spreadsheets, reports, customer profilers and department databases
+
+<li>Archived Data
+
+no longer active, long-term storage 
+
+<li>External Data
+
+Third party source
+
+</ul>
+<li> Data Staging Component
+
+Preperation of files for storing in the data warehouse
+
+<li> Data Storage
+
+<li> Metadata
+
+Data about the data, data catalogs, data dictionary
+
+<li> Data Marts
+
+<li> Management and Control Component
+</ol>
+
+### Three Tier Data Warehouse Architecture
+<ol>
+<li><strong>Bottom Tier</strong>
+
+Data Warehouse Server
+<ul>
+<li>Consists of the Data Warehouse server, which is almost always an RDBMS.
+<li>Data from operational Databases and External sources are extracted using application program interfaces called a gateway.
+<li>OLE-DB (Open-Linking and Embedding for Databases), by Microsoft,
+
+</ul>
+<li><strong>Middle Tier</strong>
+
+OLAP server
+<ul>
+<li>Consists of an <strong>OLAP</strong> server for fast querying of the data
+warehouse.
+<ol>
+<li>Relational OLAP (ROLAP) model
+
+Extended relational DBMS that maps functions on multidimensional data
+<li>Multidimensional OLAP (MOLAP) model
+
+particular purpose server
+that directly implements multidimensional information and operations.
+
+
+</ul>
+<li><strong>Top Tier</strong>
+
+Front end Tools
+
+Contains front-end tools for displaying results provided by OLAP
+
+</ol>
 
 
 ## Author
