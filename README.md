@@ -1,18 +1,44 @@
-# UNIT 1
-<br/>
 <div align="center">
-  <a href="one.md">
-    <img src="images/logo.png" alt="Logo" width="180" height="80">
-  </a>
   
+  
+  <a href="one.md">
+    <img src="images/dw.png" alt="Logo" width="100" height="100">
+  </a>
+  <h3 align="center">Data Warehousing & Data Mining</h3>
+    BCA 6th semester notes
 
-  <h3 align="center">R</h3>
-
-  <p align="center">
-    Notes to recall R methods and functions
-    <br />
-  </p>
 </div>
+
+<br>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  UNIT 1
+  <li><a href="#introduction-to-data-warehousing">Introduction to Data Warehousing</a></li>
+  <ol>
+    <li><a href="#overview">Overview</li>
+    <li><a href="#database-and-data-warehousing">Database and Data Warehousing</li>
+    <li><a href="#need-for-data-warehousing">Need for Data Warehouse</li>
+    <!-- <li></a>
+      <ul>
+        <li><a href="#Inserting-single record">Inserting single record</a></li>
+        <li><a href="#Inserting-with-reference-to-fields">Inserting with reference to fields</a></li>
+        <li><a href="#inserting-multiple-records">Inserting Multiple Records</a></li>
+      </ul>
+    </li>
+    <li><a href="#copy-table">Copy Table</a></li>
+    <li><a href="#roadmap">Update</a></li>
+    <li><a href="#contributing">Delete</a></li> -->
+    <li><a href="#building-blocks-of-data-warehousing">Building Blocks of Data Warehousing</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#data-warehouses-and-data-marts">Data Warehouse and Data Marts</a></li>
+  </ol>
+</details>
+
+<br>
+
+# Unit I
 
 ## INTRODUCTION TO DATA WAREHOUSING
 
@@ -26,6 +52,10 @@ sources.
 
 ### Database and Data Warehousing
 
+
+
+
+
 | **Parameter**  | **Data Warehouse**                  | **Database**                  |
 |----------------|-------------------------------------|-------------------------------|
 | **Workloads**  | Analytical                          | Transactional and Operational |
@@ -37,10 +67,34 @@ sources.
 ### Need for Data Warehousing
 
 
+<ol>
+<li> <strong> Business User </strong>
 
+Business users require a data warehouse to view summarized data from the
+past.
 
+<li> <strong> Store Historical Data </strong>
 
+Data Warehouse is required to store historical data.
 
+<li> <strong> Analysis</strong>
+
+Insights are derived from the data extracted from the data warehouse
+
+<li> <strong> Data Consistency & Quality </strong>
+
+Data from different sources is stored, increases uniformity and consistency
+
+<li> <strong> Response Time</strong>
+
+Data warehouse has low latency to facilitate real time analytics
+
+</ol>
+
+### Building Blocks of Data Warehousing
+
+### Features
+### Data Warehouses and Data Marts
 
 
 
