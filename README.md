@@ -33,6 +33,7 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#data-warehouses-and-data-marts">Data Warehouse and Data Marts</a></li>
     <li><a href="#components-of-data-warehousing">Components of Data Warehousing</a></li>
+    <li><a href="#three-tier-data-warehouse-architecture">Three Tier Data Warehouse Architecture</a></li>
   </ol>
 </details>
 
